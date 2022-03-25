@@ -29,6 +29,8 @@ const cleaned = removeParams(
 
 The package takes the string of an URL and converts it with `new URL`.
 
+Since it uses `new URL` you can only use this with URLs that contain a protocol and a hostname. `/about/?utm_source=test` will not work.
+
 The search parameters of the URLs are matched against the list in `./data/params.js`. It it matches and the associated company is not present in your allowlist, the param gets removed.
 
 ## Compatability
