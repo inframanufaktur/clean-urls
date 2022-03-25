@@ -1,0 +1,25 @@
+{
+  "name": "@ovl/clean-urls",
+  "version": "0.0.1",
+  "description": "Utility to remove tracking parameters from a URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovlb/clean-urls.git"
+  },
+  "keywords": [
+    "privacy"
+  ],
+  "author": "o@ovl.design",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ovlb/clean-urls/issues"
+  },
+  "homepage": "https://github.com/ovlb/clean-urls#readme",
+  "devDependencies": {
+    "ava": "^4.1.0"
+  }
+}
