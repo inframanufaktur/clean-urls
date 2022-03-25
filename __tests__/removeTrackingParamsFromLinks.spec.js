@@ -1,6 +1,6 @@
 const test = require("ava");
 
-const removeTrackingParamsFromLinks = require("../remove-tracking-params-from-link");
+const removeTrackingParamsFromLinks = require("../index");
 
 test("removes utm_source", (t) => {
   t.is(
