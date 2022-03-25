@@ -1,4 +1,4 @@
-# @ovl/clean-urls
+# @inframanufaktur/clean-urls
 
 Utility to remove tracking parameters from an URL
 
@@ -7,7 +7,7 @@ Utility to remove tracking parameters from an URL
 Basic usage:
 
 ```js
-const removeParams = require("@ovl/clean-urls");
+const removeParams = require("@inframanufaktur/clean-urls");
 
 const cleaned = removeParams("https://www.test.com/?utm_source=test");
 // --> 'https://www.test.com/'
@@ -16,7 +16,7 @@ const cleaned = removeParams("https://www.test.com/?utm_source=test");
 Allow companies through an allowlist:
 
 ```js
-const removeParams = require("@ovl/clean-urls");
+const removeParams = require("@inframanufaktur/clean-urls");
 
 const cleaned = removeParams(
   "https://www.test.com/?utm_source=test&pk_campaign=test",
