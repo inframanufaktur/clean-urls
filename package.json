@@ -21,5 +21,8 @@
   "homepage": "https://github.com/ovlb/clean-urls#readme",
   "devDependencies": {
     "ava": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=10"
   }
 }

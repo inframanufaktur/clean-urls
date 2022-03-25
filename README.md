@@ -30,3 +30,7 @@ const cleaned = removeParams(
 The package takes the string of an URL and converts it with `new URL`.
 
 The search parameters of the URLs are matched against the list in `./data/params.js`. It it matches and the associated company is not present in your allowlist, the param gets removed.
+
+## Compatability
+
+Needs Node >v10 as its uses `new URL()`.
