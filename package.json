@@ -1,6 +1,6 @@
 {
   "name": "@inframanufaktur/clean-urls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to remove tracking parameters from a URL",
   "main": "index.js",
   "scripts": {
