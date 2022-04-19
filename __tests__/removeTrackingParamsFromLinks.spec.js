@@ -34,6 +34,24 @@ test("removes utm_content", (t) => {
   );
 });
 
+test.only("removes whole utm bunch", (t) => {
+  t.is(
+    removeTrackingParamsFromLinks(
+      "https://www.test.com/?partner=rss&utm_source=rss&utm_campaign=rss+test&utm_medium=feed&utm_content=rss"
+    ),
+    "https://www.test.com/?partner=rss"
+  );
+});
+
+test("removes whole piwik bunch", (t) => {
+  t.is(
+    removeTrackingParamsFromLinks(
+      "https://www.test.com/?piwik_kwd=rss&piwik_campaign=rss+test"
+    ),
+    "https://www.test.com/"
+  );
+});
+
 test("removes fbclid", (t) => {
   t.is(
     removeTrackingParamsFromLinks("https://www.test.com/?fbclid=something"),
